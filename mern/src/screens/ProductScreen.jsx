@@ -15,7 +15,7 @@ const ProductScreen = props => {
       setProduct(data);
     };
     fetchProduct();
-  }, []);
+  }, [props.match]);
 
   return (
     <>
