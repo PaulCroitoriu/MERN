@@ -1,0 +1,23 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulCroitoriu/MERN.git"
+  },
+  "author": "Paul Croitoriu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulCroitoriu/MERN/issues"
+  },
+  "homepage": "https://github.com/PaulCroitoriu/MERN#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
