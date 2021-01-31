@@ -4,6 +4,7 @@ const router = express.Router()
 
 import Product from "../models/productModel.js"
 
+// fetch all products, GET, /api/products, PUBLIC
 router.get(
   "/",
   asyncHandler(async (req, res) => {
@@ -13,6 +14,7 @@ router.get(
   })
 )
 
+// fetch single product by ID, GET, /api/products/:id, PUBLIC
 router.get(
   "/:id",
   asyncHandler(async (req, res) => {
